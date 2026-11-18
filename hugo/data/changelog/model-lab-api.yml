@@ -20,3 +20,24 @@ entries:
       - UnpinModelLabRun
       - UnstarModelLabProject
     title: Add AI Gateway route permissions and safe editing
+  - change_type: modified
+    date: '2026-11-18'
+    link: https://github.com/DataDog/documentation/pull/41900
+    operations:
+      - DeleteModelLabRun
+      - GetModelLabArtifactContent
+      - GetModelLabProject
+      - GetModelLabRun
+      - ListModelLabProjectArtifacts
+      - ListModelLabProjectFacetKeys
+      - ListModelLabProjectFacetValues
+      - ListModelLabProjects
+      - ListModelLabRunArtifacts
+      - ListModelLabRunFacetKeys
+      - ListModelLabRunFacetValues
+      - ListModelLabRuns
+      - PinModelLabRun
+      - StarModelLabProject
+      - UnpinModelLabRun
+      - UnstarModelLabProject
+    title: Document rate-limit headers on the shared 429 responses

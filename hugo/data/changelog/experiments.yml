@@ -125,3 +125,67 @@ entries:
     operations:
       - GetExperimentResults
     title: Expose EVSI forecast context in experiment results
+  - change_type: modified
+    date: '2026-11-18'
+    link: https://github.com/DataDog/documentation/pull/41900
+    operations:
+      - ArchiveExperimentProtocol
+      - ArchiveExposureSQLModel
+      - CancelExperiment
+      - ConcludeExperiment
+      - CreateExperiment
+      - CreateExperimentMetricGroup
+      - CreateExperimentMetricGroupFromCollection
+      - CreateExperimentProtocol
+      - CreateExposureSQLModel
+      - CreateMetric
+      - CreateMetricCollection
+      - CreateMetricSQLModel
+      - CreateSubjectType
+      - DeleteExperiment
+      - DeleteExperimentMetricGroup
+      - DeleteExperimentProtocol
+      - DeleteMetric
+      - DeleteMetricCollection
+      - DeleteSubjectType
+      - GetBandit
+      - GetBanditResults
+      - GetBanditTrafficSummary
+      - GetExperiment
+      - GetExperimentAnalysisPlan
+      - GetExperimentDiagnostics
+      - GetExperimentProtocol
+      - GetExperimentResults
+      - GetExperimentTrafficSummary
+      - GetExposureSQLModel
+      - GetMetric
+      - GetMetricCollection
+      - GetMetricSQLModel
+      - GetSubjectType
+      - ListBandits
+      - ListExperimentHoldouts
+      - ListExperimentMetricGroups
+      - ListExperimentProtocols
+      - ListExperiments
+      - ListExposureSQLModels
+      - ListMetricCollections
+      - ListMetricSQLModels
+      - ListMetrics
+      - ListSubjectTypes
+      - PatchExperiment
+      - PatchExperimentProtocol
+      - PatchSubjectType
+      - PublishExperimentProtocol
+      - RefreshExperimentResults
+      - RefreshExperimentResultsForOrg
+      - ReplaceExperimentProtocol
+      - SetDefaultSubjectType
+      - StartExperiment
+      - UnarchiveExposureSQLModel
+      - UpdateExperimentAnalysisPlanAttributes
+      - UpdateExperimentMetricGroup
+      - UpdateExposureSQLModel
+      - UpdateMetric
+      - UpdateMetricCollection
+      - UpdateMetricSQLModel
+    title: Document rate-limit headers on the shared 429 responses

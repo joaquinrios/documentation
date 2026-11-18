@@ -38,3 +38,18 @@ entries:
       - UpdateRUMOperation
       - UpdateRUMOperationStrongLink
     title: Add AI Gateway route permissions and safe editing
+  - change_type: modified
+    date: '2026-11-18'
+    link: https://github.com/DataDog/documentation/pull/41900
+    operations:
+      - CreateRUMOperation
+      - CreateRUMOperationStrongLink
+      - DeleteRUMOperation
+      - DeleteRUMOperationStrongLink
+      - GetRUMOperation
+      - GetRUMOperationByName
+      - ListRUMOperationStrongLinks
+      - ListRUMOperations
+      - UpdateRUMOperation
+      - UpdateRUMOperationStrongLink
+    title: Document rate-limit headers on the shared 429 responses
