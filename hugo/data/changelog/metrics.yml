@@ -209,3 +209,10 @@ entries:
       - CreateTagConfiguration
       - UpdateTagConfiguration
     title: Document oversized metric tag configuration errors
+  - change_type: modified
+    date: '2026-11-18'
+    link: https://github.com/DataDog/documentation/pull/41923
+    operations:
+      - ListTagConfigurations
+      - ListVolumesByMetricName
+    title: Mark metric volume attributes as nullable in ListVolumesByMetricName
