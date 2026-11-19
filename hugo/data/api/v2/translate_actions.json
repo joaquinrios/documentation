@@ -3142,6 +3142,30 @@
     "request_description": "Timestamp override patch payload.",
     "request_schema_description": "Request payload for patching a timestamp override."
   },
+  "ListAnthropicUsageAndCostsIntegrationAccounts": {
+    "description": "List Anthropic Usage and Costs integration accounts.",
+    "summary": "List Anthropic Usage and Costs accounts"
+  },
+  "CreateAnthropicUsageAndCostsIntegrationAccount": {
+    "description": "Create an Anthropic Usage and Costs integration account.",
+    "summary": "Create an Anthropic Usage and Costs account",
+    "request_description": "",
+    "request_schema_description": "Request payload to create an Anthropic Usage and Costs integration account."
+  },
+  "DeleteAnthropicUsageAndCostsIntegrationAccount": {
+    "description": "Delete an Anthropic Usage and Costs integration account.",
+    "summary": "Delete an Anthropic Usage and Costs account"
+  },
+  "GetAnthropicUsageAndCostsIntegrationAccount": {
+    "description": "Get an Anthropic Usage and Costs integration account.",
+    "summary": "Get an Anthropic Usage and Costs account"
+  },
+  "UpdateAnthropicUsageAndCostsIntegrationAccount": {
+    "description": "Update an Anthropic Usage and Costs integration account. Only the fields provided are changed.",
+    "summary": "Update an Anthropic Usage and Costs account",
+    "request_description": "",
+    "request_schema_description": "Request payload to update an Anthropic Usage and Costs integration account."
+  },
   "ListChatGPTEnterpriseIntegrationAccounts": {
     "description": "List ChatGPT Enterprise integration accounts.",
     "summary": "List ChatGPT Enterprise integration accounts"
