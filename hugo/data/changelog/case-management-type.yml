@@ -8,3 +8,11 @@ entries:
       - GetAllCaseTypes
       - UpdateCaseType
     title: Rename Case Management API documentation to Work Management
+  - change_type: modified
+    date: '2026-11-19'
+    link: https://github.com/DataDog/documentation/pull/42008
+    operations:
+      - CreateCaseType
+      - DeleteCaseType
+      - GetAllCaseTypes
+    title: Fix Work Management API permission metadata
